@@ -1,6 +1,6 @@
 # docker_skeleton
 
-### Docker skeleton for Symfony 3
+### Docker skeleton
 Contains:
 - Mysql 5.7
 - PHP 7.1 Fpm
