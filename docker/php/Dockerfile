@@ -8,4 +8,4 @@ RUN composer --version
 
 RUN docker-php-ext-install pdo pdo_mysql
 
-WORKDIR /var/www/symfony
+WORKDIR /var/www/app
