@@ -3,9 +3,9 @@ services:
     php:
         image: php:7.1-fpm
         volumes:
-            - ./symfony:/var/www/symfony
+            - ./app:/var/www/app
     nginx:
-        container_name: sf_nginx
+        container_name: nginx
         image: nginx:stable
         ports:
             - "80:80"
